@@ -55,6 +55,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AdvancedDisplay
 
+# Bootanimation
+TARGET_HAS_BOOT_ANIMATION := true
+
 # Graphics
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := xlarge

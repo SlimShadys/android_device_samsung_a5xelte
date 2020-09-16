@@ -17,9 +17,9 @@
 LOCAL_PATH := device/samsung/a5xelte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_a5xelte.mk
+    $(LOCAL_PATH)/aosp_a5xelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a5xelte-user \
-    lineage_a5xelte-userdebug \
-    lineage_a5xelte-eng
+    aosp_a5xelte-user \
+    aosp_a5xelte-userdebug \
+    aosp_a5xelte-eng
